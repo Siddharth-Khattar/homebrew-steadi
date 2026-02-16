@@ -1,16 +1,16 @@
 # ABOUTME: Template for Homebrew cask definition, rendered by CI with version and SHA values.
-# ABOUTME: Placeholders (0.0.2, 75d52a899373474de50e2b46021cf783a561527e96590ee32d0156de36d2f276, fae027cfda709c5cd75bd2cef917934348153a2fb99eca02a1f692e57b925905) are replaced via sed.
+# ABOUTME: Placeholders (0.0.3, 7f97925ee3e045c5b3433ee50760b1df98585c8d1745dbf90e3429aa5ef6c853, 4410f467af294081d7c46ead1220c1810a36416839108f44fabf4924755ee86e) are replaced via sed.
 
 cask "steadi" do
-  version "0.0.2"
+  version "0.0.3"
 
   on_arm do
-    sha256 "75d52a899373474de50e2b46021cf783a561527e96590ee32d0156de36d2f276"
+    sha256 "7f97925ee3e045c5b3433ee50760b1df98585c8d1745dbf90e3429aa5ef6c853"
     url "https://github.com/Siddharth-Khattar/Steadi/releases/download/v#{version}/Steadi_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "fae027cfda709c5cd75bd2cef917934348153a2fb99eca02a1f692e57b925905"
+    sha256 "4410f467af294081d7c46ead1220c1810a36416839108f44fabf4924755ee86e"
     url "https://github.com/Siddharth-Khattar/Steadi/releases/download/v#{version}/Steadi_#{version}_x64.dmg"
   end
 
